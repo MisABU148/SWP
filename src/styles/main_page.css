@@ -30,7 +30,7 @@ button {
     font-weight: 500;
     line-height: 30px;
     text-align: left;
-    margin: 26px;
+    margin: 0 26px;
 }
 
 h3 {
@@ -72,6 +72,8 @@ h3 {
 }
 
 .add-topic {
+    display: flex;
+    align-items: baseline;
     h3 {
         max-width: 320px;
         max-height: 55px;
@@ -80,7 +82,7 @@ h3 {
         height: 55px;
         width: 400px;
         border: 1px solid #0037FF;
-        padding: 14px 20px 14px 20px;
+        padding: 5px 15px;
         border-radius: 12px;
         color: #7F7FFF;
         font-family: IBM Plex Sans;
@@ -88,7 +90,7 @@ h3 {
         font-weight: 500;
         line-height: 27px;
         text-align: left;
-
+        margin: 10px 26px;
     }
 }
 
@@ -97,10 +99,17 @@ h3 {
         max-width: 270px;
         max-height: 55px;
     }
+    margin: 10px 26px;
     max-height: 422px;
-    max-width: 673px;
+    width: 400px;
     border: 1px solid #0037FF;
-    padding: 14px 20px 14px 20px;
+    padding: 10px 20px;
     border-radius: 12px;
     color: #7F7FFF;
+    overflow: auto;
+    button {
+        padding: 2px;
+        margin: 5px;
+        right: 0;
+    }
 }
